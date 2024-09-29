@@ -7,6 +7,14 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Kodiraj Ba',
+      defaultLocale: 'ba',
+      locales: {
+        ba: {
+          label: 'Bosanski',
+          lang: 'ba',
+        },
+      },
+      customCss: ['./src/styles/theme.css'],
       social: {
         github: 'https://github.com/withastro/starlight',
       },
