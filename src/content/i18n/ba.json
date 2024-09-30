@@ -25,5 +25,18 @@
   "aside.caution": "Pažnja",
   "aside.danger": "Opasnost",
   "fileTree.directory": "Direktorij",
-  "builtWithStarlight.label": "Izgrađeno pomoću Starlighta"
+  "builtWithStarlight.label": "Izgrađeno pomoću Starlighta",
+  "expressiveCode.copyButtonCopied": "Kopirano!",
+  "expressiveCode.copyButtonTooltip": "Kopiraj u međuspremnik",
+  "expressiveCode.terminalWindowFallbackTitle": "Terminal prozor",
+  "pagefind.clear_search": "Očisti",
+  "pagefind.load_more": "Učitaj više rezultata",
+  "pagefind.search_label": "Pretraži ovu stranicu",
+  "pagefind.filters_label": "Filteri",
+  "pagefind.zero_results": "Nema rezultata za [SEARCH_TERM]",
+  "pagefind.many_results": "[COUNT] rezultata za [SEARCH_TERM]",
+  "pagefind.one_result": "[COUNT] rezultat za [SEARCH_TERM]",
+  "pagefind.alt_search": "Nema rezultata za [SEARCH_TERM]. Umjesto toga prikazujem rezultate za [DIFFERENT_TERM]",
+  "pagefind.search_suggestion": "Nema rezultata za [SEARCH_TERM]. Pokušajte s jednom od sljedećih pretraga:",
+  "pagefind.searching": "Tražim [SEARCH_TERM]..."
 }
