@@ -49,25 +49,6 @@ description: Paragraph tag
    </p>
    ```
 
-### Stiliziranje `<p>` taga
-
-Za stiliziranje `<p>` tag-a koristi se CSS. Najčešći stilovi primijenjeni na `<p>` uključuju promjenu veličine fonta, boje teksta, margina, razmaka između slova i visine linije.
-
-**Primjer CSS stilizacije:**
-
-```html
-<p class="stilizirani-paragraf">Ovo je stilizirani odlomak.</p>
-
-<style>
-  .stilizirani-paragraf {
-    font-size: 18px;
-    color: #333333;
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-</style>
-```
-
 ### Primjeri korištenja `<p>` taga
 
 1. **Osnovni primjer:**

@@ -70,27 +70,6 @@ description: Link tag
    >
    ```
 
-### Stiliziranje `<a>` taga
-
-Linkovi se mogu stilizirati koristeći CSS. Uobičajeno je mijenjati boju, dodavati podcrtavanje i stilizirati ih u različitim stanjima kao što su hover ili active.
-
-**Primjer CSS stilizacije:**
-
-```html
-<a href="https://www.primjer.com" class="link">Posjetite našu stranicu</a>
-
-<style>
-  .link {
-    color: blue;
-    text-decoration: none;
-  }
-
-  .link:hover {
-    text-decoration: underline;
-  }
-</style>
-```
-
 ### Primjeri korištenja `<a>` taga
 
 1. **Link prema eksternoj stranici:**

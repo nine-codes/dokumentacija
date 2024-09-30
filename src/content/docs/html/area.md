@@ -173,24 +173,6 @@ description: HTML Area tag
    />
    ```
 
-### Stiliziranje `<area>` tagova
-
-`<area>` tagovi ne mogu se direktno stilizirati pomoću CSS-a. Međutim, možete stilizirati samu sliku `<img>` element, a klikalna područja će pratiti koordinatni raspored unutar slike.
-
-**Primjer stilizacije slike:**
-
-```html
-<img src="primjer-slike.png" usemap="#mapa" class="stilizirana-slika" />
-
-<style>
-  .stilizirana-slika {
-    border: 2px solid #333;
-    width: 100%;
-    height: auto;
-  }
-</style>
-```
-
 ### Zaključak
 
 `<area>` tag je ključan za kreiranje interaktivnih slika koje sadrže više klikalnih područja. Kombinacija `<map>` i `<area>` tagova omogućava dodavanje hiperlinkova na specifične dijelove slike, čineći vašu web stranicu bogatijom i funkcionalnijom. Pravilna upotreba atributa kao što su `shape`, `coords`, i `href` omogućava precizno definiranje tih područja.
