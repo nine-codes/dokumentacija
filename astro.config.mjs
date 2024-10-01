@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'Kodiraj Ba',
+      title: 'Dokumentacija',
       defaultLocale: 'ba',
       locales: {
         ba: {
