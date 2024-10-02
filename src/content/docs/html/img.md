@@ -5,7 +5,7 @@ description: HTML <img> tag
 
 ### HTML `<img>` Tag
 
-`<img>` tag u HTML-u se koristi za ugradnju slika na web stranicu. Ovaj element omogućava prikazivanje slika iz različitih izvora, uključujući lokalne datoteke i URL-ove.
+`<img>` tag u HTML-u se koristi za umetanje slika u dokument. Ovaj tag omogućava prikazivanje slika koje su pohranjene na serveru ili dostupne putem URL-a.
 
 #### Osnovna sintaksa
 
@@ -13,46 +13,35 @@ description: HTML <img> tag
 <img src="slika.jpg" alt="Opis slike" />
 ```
 
-- **`<img>`**: Ugrađuje sliku na web stranicu.
-- **`src`**: URL ili putanja do slike.
-- **`alt`**: Alternativni tekst koji se prikazuje ako slika nije dostupna.
+- **`src`**: Atribut koji specificira putanju do slike.
+- **`alt`**: Atribut koji pruža alternativni tekst za sliku.
 
 ### Karakteristike `<img>` taga
 
-1. **Prikaz slika**:
-   `<img>` tag omogućava prikazivanje slika na web stranici, što poboljšava vizualni izgled i korisničko iskustvo.
+1. **Umetanje slika**:
+   `<img>` tag se koristi za umetanje slika u HTML dokument.
 
-2. **Alternativni tekst**:
-   `alt` atribut pruža opis slike koji se prikazuje ako slika nije dostupna ili za korisnike koji koriste čitače ekrana.
-
-3. **Različiti formati**:
-   `<img>` tag podržava različite formate slika, uključujući JPEG, PNG, GIF, i SVG.
+2. **Pristupačnost**:
+   Atribut `alt` pruža alternativni tekst za sliku, što poboljšava pristupačnost za korisnike koji koriste čitače ekrana.
 
 ### Primjeri korištenja `<img>` taga
 
-1. **Osnovna slika:**
+1. **Umetanje slike:**
 
    ```html
    <img src="slika.jpg" alt="Opis slike" />
    ```
 
-2. **Slika sa specificiranim dimenzijama:**
-
+2. **Umetanje slike sa specificiranim dimenzijama:**
    ```html
-   <img src="slika.jpg" alt="Opis slike" width="300" height="200" />
-   ```
-
-3. **Slika iz URL-a:**
-   ```html
-   <img src="https://www.primjer.com/slika.jpg" alt="Opis slike" />
+   <img src="slika.jpg" alt="Opis slike" width="500" height="300" />
    ```
 
 ### Dodatne informacije
 
-- **Pristupačnost**: Uvijek koristite `alt` atribut za pružanje alternativnog teksta koji opisuje sadržaj slike.
-- **Performanse**: Optimizirajte slike za web kako biste smanjili vrijeme učitavanja stranice.
-- **Responsive slike**: Koristite `srcset` i `sizes` atribute za pružanje različitih verzija slike za različite veličine ekrana.
+- **Pristupačnost**: Korištenje atributa `alt` poboljšava pristupačnost jer pruža alternativni tekst za sliku.
+- **Stilizacija**: Slike unutar `<img>` taga mogu se dodatno stilizirati pomoću CSS-a kako bi se vizualno uskladile sa dizajnom stranice.
 
 ### Zaključak
 
-`<img>` tag je osnovni element za ugradnju slika na web stranice. Pravilno korištenje ovog taga poboljšava vizualni izgled stranice, pristupačnost i korisničko iskustvo. Optimizacija slika i korištenje alternativnog teksta su ključni za postizanje najboljih rezultata.
+`<img>` tag je koristan za umetanje slika unutar HTML dokumenata. Pravilno korištenje ovog taga poboljšava vizualni prikaz i pristupačnost na web stranicama.

@@ -1,107 +1,46 @@
 ---
 title: <a>
-description: Link tag
+description: HTML <a> tag
 ---
 
 ### HTML `<a>` Tag
 
-`<a>` tag (anchor tag) u HTML-u se koristi za kreiranje hiperlinkova. Hiperlinkovi omogućavaju korisnicima da klikom na određeni tekst ili element budu preusmjereni na druge web stranice, dokumente ili lokacije unutar iste stranice.
+`<a>` tag u HTML-u se koristi za kreiranje hiperlinkova. Ovaj tag omogućava korisnicima da kliknu na link i budu preusmjereni na drugu stranicu ili resurs.
 
 #### Osnovna sintaksa
 
 ```html
-<a href="https://www.primjer.com">Kliknite ovdje</a>
+<a href="https://www.example.com">Klikni ovdje</a>
 ```
 
-- **Otvoreni tag**: `<a>`
-- **Zatvoreni tag**: `</a>`
-- **Atribut**: `href` (Hypertext Reference), koji specificira odredište linka.
+- **`href`**: Atribut koji specificira URL na koji link vodi.
 
-### Atributi `<a>` taga
+### Karakteristike `<a>` taga
 
-1. **`href` (Hypertext Reference)**:  
-   Ovo je najvažniji atribut `<a>` taga. On definira URL ili odredište gdje će korisnik biti preusmjeren nakon klika na link.
+1. **Hiperlinkovi**:
+   `<a>` tag se koristi za kreiranje hiperlinkova koji omogućavaju navigaciju između stranica ili resursa.
 
-   **Primjer:**
-
-   ```html
-   <a href="https://www.primjer.com">Posjetite našu stranicu</a>
-   ```
-
-2. **`target`**:  
-   Ovaj atribut određuje kako će se otvarati link. Najčešće korištena vrijednost je `_blank`, koja otvara link u novom prozoru ili kartici.
-
-   **Primjer:**
-
-   ```html
-   <a href="https://www.primjer.com" target="_blank">Otvori u novoj kartici</a>
-   ```
-
-3. **`title`**:  
-   Ovaj atribut prikazuje dodatni tekst (tooltip) kada korisnik pređe mišem preko linka.
-
-   **Primjer:**
-
-   ```html
-   <a href="https://www.primjer.com" title="Kliknite ovdje za više informacija">
-     Više informacija
-   </a>
-   ```
-
-4. **`rel`**:  
-   Atribut `rel` definira odnos između trenutne stranice i povezanog URL-a. Na primjer, `noopener` i `noreferrer` su često korišteni za sigurnost kada se linkovi otvaraju u novom prozoru.
-
-   **Primjer:**
-
-   ```html
-   <a href="https://www.primjer.com" target="_blank" rel="noopener noreferrer">
-     Siguran link
-   </a>
-   ```
-
-5. **`download`**:  
-   Ovaj atribut omogućava korisnicima da preuzmu datoteku umjesto da posjete link. Vrijednost atributa može specificirati ime datoteke za preuzimanje.
-
-   **Primjer:**
-
-   ```html
-   <a href="/files/dokument.pdf" download="moj_dokument.pdf"
-     >Preuzmi dokument</a
-   >
-   ```
+2. **Stilizacija**:
+   Preglednici obično prikazuju linkove unutar `<a>` taga kao podvučeni tekst, ali stilizacija može biti prilagođena pomoću CSS-a.
 
 ### Primjeri korištenja `<a>` taga
 
-1. **Link prema eksternoj stranici:**
+1. **Kreiranje linka:**
 
    ```html
-   <a href="https://www.google.com">Google</a>
+   <a href="https://www.example.com">Klikni ovdje</a>
    ```
 
-2. **Link prema lokalnoj datoteci:**
-
+2. **Link sa atributom `target`:**
    ```html
-   <a href="/datoteke/primjer.pdf">Preuzmi PDF</a>
-   ```
-
-3. **Link prema određenom dijelu stranice (Anchor link):**
-
-   ```html
-   <a href="#sekcija">Skoči na sekciju</a>
-
-   <h2 id="sekcija">Ovo je ciljna sekcija</h2>
-   ```
-
-4. **Email link:**
-   ```html
-   <a href="mailto:primjer@email.com">Pošalji email</a>
+   <a href="https://www.example.com" target="_blank">Otvori u novom prozoru</a>
    ```
 
 ### Dodatne informacije
 
-- **SEO**: Koristite deskriptivne tekstove za linkove kako bi pretraživači bolje razumjeli sadržaj stranice.
-- **Pristupačnost**: Pobrinite se da linkovi imaju jasan i razumljiv tekst, kako bi bili korisni za sve korisnike, uključujući one koji koriste čitače ekrana.
+- **Pristupačnost**: Korištenje `<a>` taga poboljšava pristupačnost jer omogućava korisnicima da lako navigiraju između stranica ili resursa.
+- **Stilizacija**: Linkovi unutar `<a>` taga mogu se dodatno stilizirati pomoću CSS-a kako bi se vizualno uskladili sa dizajnom stranice.
 
 ### Zaključak
 
-`<a>` tag je osnovni HTML element koji omogućava kreiranje linkova prema internim i eksternim resursima. Pravilna upotreba atributa poput `href`, `target`, `rel` i `download` pruža veliku fleksibilnost i sigurnost prilikom rada sa linkovima.
+`<a>` tag je koristan za kreiranje hiperlinkova unutar HTML dokumenata. Pravilno korištenje ovog taga poboljšava navigaciju i interaktivnost na web stranicama.
