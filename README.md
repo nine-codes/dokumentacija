@@ -1,21 +1,10 @@
-# Starlight Starter Kit: Basics
+# Web development dokumentacija
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+[![Napravljeno sa Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-```
-npm create astro@latest -- --template starlight
-```
+## 🚀 Struktura projekta
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+Unutar vašeg Astro + Starlight projekta, vidjet ćete sljedeće folderi i datoteke:
 
 ```
 .
@@ -31,25 +20,23 @@ Inside of your Astro + Starlight project, you'll see the following folders and f
 └── tsconfig.json
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Starlight traži `.md` ili `.mdx` datoteke u direktoriju `src/content/docs/`. Svaka datoteka je izložena kao ruta na temelju njenog naziva.
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+Slike se mogu dodati u `src/assets/` i uključiti u Markdown s relativnom putanjom.
 
-Static assets, like favicons, can be placed in the `public/` directory.
+Statički resursi, kao što su favikoni, mogu biti stavljeni u direktorijum `public/`.
 
-## 🧞 Commands
+## 🧞 Komande
 
-All commands are run from the root of the project, from a terminal:
+Svi komandi se izvode iz root direktorija projekta, iz terminala:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| Komande           | Akcija                                                  |
+| :---------------- | :------------------------------------------------------ |
+| `npm install`     | Instalira dependencies                                  |
+| `npm run dev`     | Pokreće lokalni dev server na `localhost:4321`          |
+| `npm run build`   | Builda vašu proizvodnu stranicu u `./dist/`             |
+| `npm run preview` | Pregledaj izgradenu stranicu lokalno, prije deploymenta |
 
-## 👀 Want to learn more?
+## 👀 Želite naučiti više?
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+Pogledajte [Starlightove dokumentacije](https://starlight.astro.build/) ili pročitajte [Astro dokumentaciju](https://docs.astro.build).

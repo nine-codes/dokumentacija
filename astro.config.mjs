@@ -20,19 +20,14 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Blog', link: '/blog/' },
-        // {
-        //   label: 'Guides',
-        //   items: [
-        //     // Each item here is one entry in the navigation menu.
-        //     { label: 'Example Guide', slug: 'guides/example' },
-        //   ],
-        // },
         {
           label: 'CSS',
+          collapsed: true,
           autogenerate: { directory: 'css' },
         },
         {
           label: 'HTML',
+          collapsed: true,
           autogenerate: { directory: 'html' },
         },
       ],
