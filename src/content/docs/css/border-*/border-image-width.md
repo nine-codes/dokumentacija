@@ -21,11 +21,11 @@ element {
 
 1. **Postavljanje širine slike za granicu:**
 
-   ```css
-   div {
-     border-image-width: 10px;
-   }
-   ```
+```css
+div {
+  border-image-width: 10px;
+}
+```
 
 ### Dodatne informacije
 
